@@ -1,5 +1,7 @@
 # Visulaizing Grafana dashboard using Loki and Promtail
 
+![image](https://github.com/Pavan-1997/Grafana_Loki_Promtail/assets/32020205/0d47f55c-b104-4d03-85b4-8793f5eadce5)
+
 Loki is log aggregation tool
  
 Prometheus is a metrics monitoring tool.
