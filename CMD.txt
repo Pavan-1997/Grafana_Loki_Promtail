@@ -139,8 +139,7 @@ sudo apt-get install nginx
 
 17. Go to Grafana again in Step 15. Now select below
 
-Label Filters - job 
-				varlogs
+Label Filters - job - varlogs
 				
 Line contains - nginx
 
