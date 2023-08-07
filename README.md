@@ -150,10 +150,10 @@ sudo apt-get install nginx
 
 17. Go to Grafana again in Step 15. Now select below
 
-Label Filters - job - varlogs
-				
-Line contains - nginx
-
-Now select 5 minutes, run the query later apply
-
-Make changes accordingly 
+	Label Filters - job - varlogs
+					
+	Line contains - nginx
+	
+	Now select 5 minutes, run the query later apply
+	
+	Make changes accordingly 
