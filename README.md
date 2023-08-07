@@ -66,6 +66,8 @@ sudo usermod -aG docker $USER
 ```
 sudo reboot
 ```
+`Reboot the instance for Ubuntu user to execute docker commands`
+
 
 8. Install Loki using Docker:
 
