@@ -123,11 +123,10 @@ sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --
 
 12. Add target in Promtail for Grafana logs 
 ```
-   targets:
-      - localhost
-    labels:
-      job: grafanalogs
-      __path__: /var/log/grafana/*log
+   targets: localhost
+   labels:
+   job: grafanalogs
+   __path__: /var/log/grafana/*log
 ```
 
 13. Now restart the Promtail container-
