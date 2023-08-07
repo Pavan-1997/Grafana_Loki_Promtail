@@ -52,9 +52,9 @@ b) Enable the at boot time-
 ```
 sudo systemctl enable grafana-server
 ```
-c) Open port 3000 in EC2 and access using the IP
+c) Open port `3000` in EC2 and access using the IP
 
-d) Login with admin:admin
+d) Login with `admin:admin`
 
 
 7. Install Docker:
