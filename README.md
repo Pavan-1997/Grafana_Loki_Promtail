@@ -112,15 +112,15 @@ sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --
 
 11. Filtering a particular logs
 
-cd  /var/log
+`cd  /var/log`
 
-ls
+`ls`
 
-cd grafana.log
+`cd grafana.log`
 
-pwd
+`pwd`
 
-Copy the pwd above
+  Copy the pwd above
 
 
 12. Add target in Promtail for Grafana logs 
