@@ -46,11 +46,11 @@ sudo apt-get update
 ```
 sudo apt-get install grafana
 ```
-  a) Start the Grafana-
+   a) Start the Grafana-
 	```
 	sudo systemctl start grafana-server
 	```
-  b) Enable the  at boot time-
+    b) Enable the at boot time-
 	```
 	sudo systemctl enable grafana-server
 	```
