@@ -133,9 +133,9 @@ sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --
 ```
 
 13. Now restart the Promtail container-
-
+```
 docker restart <container-id>
-
+```
 
 14. Now refresh the grafana page and now you should see grafanalogs and run it
 
@@ -144,9 +144,9 @@ docker restart <container-id>
 
 
 16. Install Nginx
-
+```
 sudo apt-get install nginx
-
+```
 
 17. Go to Grafana again in Step 15. Now select below
 
