@@ -110,13 +110,13 @@ sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --
 
 11. Filtering a particular logs
 
-`cd  /var/log`
-
-`ls`
-
-`cd grafana.log`
-
-`pwd`
+	`cd  /var/log`
+	
+	`ls`
+	
+	`cd grafana.log`
+	
+	`pwd`
 
   Copy the pwd above
 
