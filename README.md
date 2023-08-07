@@ -25,7 +25,7 @@ sudo apt-get install -y software-properties-common wget
 ```
 
 3. Download Grafana:
-
+```
 sudo wget -q -O /usr/share/keyrings/grafana.key https://apt.grafana.com/gpg.key
 
 Stable release-
@@ -35,25 +35,25 @@ echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://apt.grafana.com st
 Beta release-
 
 echo "deb [signed-by=/usr/share/keyrings/grafana.key] https://apt.grafana.com beta main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
-
+```
 
 4. Update the list of available packages:
-
+```
 sudo apt-get update
-
+```
 
 5. Install Grafana:
-
+```
 sudo apt-get install grafana
-
+```
 a) Start the Grafana-
-
+```
 sudo systemctl start grafana-server
-
+```
 b) Enable the  at boot time-
-
+```
 sudo systemctl enable grafana-server
-
+```
 c) Open port 3000 in EC2 and access using the IP
 
 d) Login with admin:admin
