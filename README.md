@@ -60,13 +60,14 @@ d) Login with admin:admin
 
 
 7. Install Docker:
-
+```
 sudo apt-get install docker.io
 
 sudo usermod -aG docker $USER
-
+```
+```
 sudo reboot
-
+```
 
 8. Install Loki using Docker:
 
