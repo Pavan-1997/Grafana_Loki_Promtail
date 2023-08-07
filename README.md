@@ -72,17 +72,17 @@ sudo reboot
 8. Install Loki using Docker:
 
 a) Download Loki Config-
-
+```
 mkdir grafana-configs
 
 cd grafana-configs
 
 wget https://raw.githubusercontent.com/grafana/loki/v2.8.0/cmd/loki/loki-local-config.yaml -O loki-config.yaml
-
+```
 b) Run Loki Docker container-
-
+```
 sudo docker run -d --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2.8.0 --config.file=/mnt/config/loki-config.yaml
-
+```
 c) Now open port 3100 in EC2 and access using the IP
 
 <IP>:3100/ready --- Wait for 15 sec and then goes to ready
@@ -93,9 +93,9 @@ c) Now open port 3100 in EC2 and access using the IP
 9. Install Promtail using Docker:
 
 a) Download Promtail Config-
-
+```
 wget https://raw.githubusercontent.com/grafana/loki/v2.8.0/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config.yaml
-
+```
 b) Run Promtail Docker container-
 
 sudo docker run -d --name promtail -v $(pwd):/mnt/config -v /var/log:/var/log --link loki grafana/promtail:2.8.0 --config.file=/mnt/config/promtail-config.yaml
