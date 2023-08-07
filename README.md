@@ -85,9 +85,9 @@ sudo docker run -d --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2
 ```
 c) Now open port 3100 in EC2 and access using the IP
 
-<IP>:3100/ready --- Wait for 15 sec and then goes to ready
+`<IP>:3100/ready --- Wait for 15 sec and then goes to ready`
 
-<IP>:3100/metrics --- To check what are the metrics 
+`<IP>:3100/metrics --- To check what are the metrics`
 
 
 9. Install Promtail using Docker:
